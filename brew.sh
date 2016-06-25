@@ -62,13 +62,15 @@ brew install python --with-brewed-openssl
 brew install pyenv
 brew install pyenv-virtualenv
 
-# Install r
 brew install r
+brew install lua
+brew install julia
 
 # Install other data stuff
 brew install mysql
 brew install hdf5
 brew install sqllite
+brew install rabbitmq
 
 # Install web-dev stuff
 brew install ruby
