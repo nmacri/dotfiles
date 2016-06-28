@@ -31,6 +31,7 @@ brew tap homebrew/science
 brew tap homebrew/python
 brew tap homebrew/php
 brew tap homebrew/apache
+brew tap homebrew/dupes
 
 # Make sure we’re using the latest Homebrew.
 brew update
@@ -53,12 +54,13 @@ brew install homebrew/dupes/grep
 brew install homebrew/dupes/openssh
 brew install homebrew/dupes/screen
 brew install homebrew/php/php56 --with-gmp
+brew install homebrew/dupes/tcl-tk
 
 # Install python binaries
 brew install openssl
 brew link openssl --force
 brew uninstall python
-brew install python --with-brewed-openssl
+brew install python --with-brewed-openssl --with-tcl-tk
 brew install pyenv
 brew install pyenv-virtualenv
 

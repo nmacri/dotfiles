@@ -30,6 +30,8 @@ unset doIt;
 
 sudo mkdir ~/.vim/colors
 sudo cp ~/dotfiles/.vim/colors/solarized.vim ~/.vim/colors/solarized.vim
+sudo cp ~/dotfiles/.matplotlib/matplotlibrc ~/.matplotlib/matplotlibrc
+
 vim +PluginInstall +qall
 
 
