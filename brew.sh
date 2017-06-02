@@ -78,6 +78,10 @@ brew install rabbitmq
 brew install ruby
 brew install node
 
+# iOS dev stuff
+xcode-select --install
+brew install rbenv
+
 # Install version control stuff
 brew install git
 brew install git-lfs
