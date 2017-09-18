@@ -48,3 +48,6 @@ export PATH="/usr/local/sbin:$PATH"
 
 # Install [ruby env](https://github.com/rbenv/rbenv) via [brew](https://brew.sh/) (Tutorial [1](https://blog.metova.com/how-to-update-an-ios-project-to-use-rbenv-for-ruby-version-management), [2](https://github.com/calabash/calabash-ios/wiki/rbenv-guide)).
 eval "$(rbenv init -)"
+
+# link brewed nvm
+source $(brew --prefix nvm)/nvm.sh
