@@ -4,7 +4,7 @@ git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 cd "$(dirname "${BASH_SOURCE}")";
 
-git pull origin master;
+# git pull origin master;
 
 function doIt() {
 	rsync --exclude ".git/" \
@@ -30,8 +30,8 @@ unset doIt;
 
 rm -Rf ~/.vim/colors
 sudo mkdir ~/.vim/colors
-sudo cp ~/dotfiles/.vim/colors/solarized.vim ~/.vim/colors/solarized.vim
-sudo cp ~/dotfiles/.matplotlib/matplotlibrc ~/.matplotlib/matplotlibrc
+sudo cp ~/Projects/dotfiles/.vim/colors/solarized.vim ~/.vim/colors/solarized.vim
+sudo cp ~/Projects/dotfiles/.matplotlib/matplotlibrc ~/.matplotlib/matplotlibrc
 
 vim +PluginInstall +qall
 

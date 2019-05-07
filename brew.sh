@@ -50,9 +50,8 @@ brew install wget --with-iri
 
 # Install python binaries
 brew install openssl
-brew link openssl --force
-brew uninstall python
-brew install python --with-brewed-openssl --with-tcl-tk
+brew install python@3
+brew install python@2
 brew install pyenv
 brew install pyenv-virtualenv
 
